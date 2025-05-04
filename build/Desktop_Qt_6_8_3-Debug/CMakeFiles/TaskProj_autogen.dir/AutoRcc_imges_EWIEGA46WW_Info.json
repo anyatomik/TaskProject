@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/build/Desktop_Qt_6_8_3-Debug/TaskProj_autogen",
+	"CMAKE_BINARY_DIR" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/build/Desktop_Qt_6_8_3-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/build/Desktop_Qt_6_8_3-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj",
+	"CMAKE_SOURCE_DIR" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/build/Desktop_Qt_6_8_3-Debug/TaskProj_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/imges/calendar (2).png",
+		"/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/imges/calendar.png",
+		"/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/imges/calendar (1).png",
+		"/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/imges/calendar.ico"
+	],
+	"LOCK_FILE" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/TaskProj_autogen.dir/AutoRcc_imges_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "imges" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_imges.cpp",
+	"RCC_EXECUTABLE" : "/home/a-nya/Qt/6.8.3/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/TaskProj_autogen.dir/AutoRcc_imges_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/a-nya/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/proj/TaskProj/imges.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
