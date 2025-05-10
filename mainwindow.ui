@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>TaskProject</string>
+   <string>TaskProject-Главная</string>
   </property>
   <property name="windowIcon">
    <iconset resource="imges.qrc">
@@ -24,23 +24,34 @@
       <x>0</x>
       <y>-5</y>
       <width>731</width>
-      <height>44</height>
+      <height>45</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.477, x2:1, y2:0.534, stop:0 rgba(187, 47, 241, 255), stop:1 rgba(255, 65, 215, 255));</string>
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.477, x2:1, y2:0.534, stop:0 rgba(187, 47, 241, 255), stop:1 rgba(255, 65, 215, 255));
+font: 700 11pt &quot;Segoe UI&quot;;
+</string>
     </property>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>85</width>
+       <x>12</x>
+       <y>11</y>
+       <width>80</width>
        <height>28</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(61, 56, 70);</string>
+      <string notr="true">QPushButton {
+ 
+	background-color: rgba(191, 64, 64, 0);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(192, 97, 203)
+}</string>
      </property>
      <property name="text">
       <string>Главная</string>
@@ -49,99 +60,622 @@
       <bool>true</bool>
      </property>
     </widget>
-   </widget>
-   <widget class="QStackedWidget" name="stackedWidget">
-    <property name="geometry">
-     <rect>
-      <x>259</x>
-      <y>39</y>
-      <width>474</width>
-      <height>423</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.477, x2:1, y2:0.534, stop:0 rgba(47, 241, 193, 255), stop:1 rgba(65, 216, 255, 255));</string>
-    </property>
-    <widget class="QWidget" name="page">
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>160</y>
-        <width>321</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-font: 900 11pt &quot;Segoe UI&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Приветствуем вас в нашем приложении!</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>180</y>
-        <width>321</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-font: 900 11pt &quot;Segoe UI&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Здесь вы можете распланировать задачи</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>150</x>
-        <y>200</y>
-        <width>191</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-font: 900 11pt &quot;Segoe UI&quot;;</string>
-      </property>
-      <property name="text">
-       <string>и составить списки дел.</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="page_2"/>
-   </widget>
-   <widget class="QScrollArea" name="scrollArea">
-    <property name="geometry">
-     <rect>
-      <x>-1</x>
-      <y>39</y>
-      <width>261</width>
-      <height>423</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.487, y1:0, x2:0.503, y2:1, stop:0 rgba(241, 186, 47, 255), stop:1 rgba(180, 255, 65, 255));</string>
-    </property>
-    <property name="widgetResizable">
-     <bool>true</bool>
-    </property>
-    <widget class="QWidget" name="scrollAreaWidgetContents">
+    <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>259</width>
-       <height>421</height>
+       <x>192</x>
+       <y>11</y>
+       <width>86</width>
+       <height>28</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+ 
+
+   color: rgb(61, 56, 70);
+	
+}
+
+QPushButton:pressed {
+    background-color:  rgb(192, 97, 203)
+}</string>
+     </property>
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>98</x>
+       <y>11</y>
+       <width>88</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+ 
+   
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(192, 97, 203)
+}</string>
+     </property>
+     <property name="text">
+      <string>Настройки</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="mainsett">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>731</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="main">
+     <widget class="QStackedWidget" name="checks">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>0</y>
+        <width>531</width>
+        <height>423</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.477, x2:1, y2:0.534, stop:0 rgba(47, 241, 193, 255), stop:1 rgba(65, 216, 255, 255));
+font: 700 11pt &quot;Segoe UI&quot;;
+</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="maincheck">
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>111</x>
+          <y>160</y>
+          <width>321</width>
+          <height>74</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0,0,0);
+background-color: rgba(191, 64, 64, 0);
+
+</string>
+           </property>
+           <property name="text">
+            <string>   Приветствуем вас в нашем приложении!</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(191, 64, 64, 0);
+</string>
+           </property>
+           <property name="text">
+            <string>  Здесь вы можете распланировать задачи</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(191, 64, 64, 0);</string>
+           </property>
+           <property name="text">
+            <string>                и составить списки дел.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="check_1"/>
+      <widget class="QWidget" name="check_2"/>
+      <widget class="QWidget" name="check_3"/>
+      <widget class="QWidget" name="check_4"/>
+      <widget class="QWidget" name="check_5"/>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>211</width>
+        <height>423</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.487, y1:0, x2:0.503, y2:1, stop:0 rgba(241, 186, 47, 255), stop:1 rgba(180, 255, 65, 255));
+font: 700 11pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>209</width>
+         <height>421</height>
+        </rect>
+       </property>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>270</y>
+          <width>211</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 700 11pt &quot;Segoe UI&quot;;
+background-color: rgba(191, 64, 64, 0);
+color: rgb(61, 56, 70);</string>
+        </property>
+        <property name="title">
+         <string>Информация</string>
+        </property>
+        <widget class="QWidget" name="">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>211</width>
+           <height>54</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="minimumSize">
+               <size>
+                <width>60</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Списки:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>10</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>15</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>из</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QLabel" name="label_13">
+                <property name="minimumSize">
+                 <size>
+                  <width>120</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Задачи в списке:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_14">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>0</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_15">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>15</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>из</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_16">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>5</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>91</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+        </property>
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>0</y>
+          <width>91</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+ 
+	background-color: rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color: rgb(248, 228, 92)
+}</string>
+        </property>
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QScrollArea" name="scrollArea_2">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>20</y>
+          <width>211</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>209</width>
+           <height>249</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QPushButton" name="chbut_0">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="chbut_1">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="chbut_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="chbut_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="chbut_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="chbut_6">
+            <property name="minimumSize">
+             <size>
+              <width>191</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(241, 186, 47, 255);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <zorder></zorder>
+       <zorder>scrollArea_2</zorder>
+       <zorder>groupBox</zorder>
+       <zorder>pushButton_4</zorder>
+       <zorder>pushButton_5</zorder>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="settings"/>
    </widget>
   </widget>
  </widget>
