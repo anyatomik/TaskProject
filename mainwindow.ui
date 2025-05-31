@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>730</width>
+    <width>721</width>
     <height>461</height>
    </rect>
   </property>
@@ -29,14 +29,14 @@
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.477, x2:1, y2:0.534, stop:0 rgba(187, 47, 241, 255), stop:1 rgba(255, 65, 215, 255));
-font: 700 11pt &quot;Segoe UI&quot;;
+font: 500 11pt &quot;Ubuntu Mono&quot;;
 </string>
     </property>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>12</x>
-       <y>11</y>
+       <x>109</x>
+       <y>12</y>
        <width>80</width>
        <height>28</height>
       </rect>
@@ -63,8 +63,8 @@ QPushButton:pressed {
     <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>192</x>
-       <y>11</y>
+       <x>300</x>
+       <y>12</y>
        <width>86</width>
        <height>28</height>
       </rect>
@@ -91,8 +91,8 @@ QPushButton:pressed {
     <widget class="QPushButton" name="pushButton_3">
      <property name="geometry">
       <rect>
-       <x>98</x>
-       <y>11</y>
+       <x>204</x>
+       <y>12</y>
        <width>88</width>
        <height>28</height>
       </rect>
@@ -111,6 +111,40 @@ QPushButton:pressed {
      </property>
      <property name="text">
       <string>Настройки</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>12</y>
+       <width>80</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+ 
+	background-color: rgba(191, 64, 64, 0);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(192, 97, 203)
+}</string>
+     </property>
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
      </property>
      <property name="flat">
       <bool>true</bool>
@@ -144,7 +178,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.477, x2:1, y2:0.534, stop:0 rgba(47, 241, 193, 255), stop:1 rgba(65, 216, 255, 255));
-font: 700 11pt &quot;Segoe UI&quot;;
+font: 500 11pt &quot;Ubuntu Mono&quot;;
+color: rgb(36, 31, 49);
 </string>
       </property>
       <property name="currentIndex">
@@ -154,9 +189,9 @@ font: 700 11pt &quot;Segoe UI&quot;;
        <widget class="QWidget" name="layoutWidget">
         <property name="geometry">
          <rect>
-          <x>111</x>
+          <x>90</x>
           <y>160</y>
-          <width>321</width>
+          <width>330</width>
           <height>74</height>
          </rect>
         </property>
@@ -193,23 +228,363 @@ background-color: rgba(191, 64, 64, 0);
 background-color: rgba(191, 64, 64, 0);</string>
            </property>
            <property name="text">
-            <string>                и составить списки дел.</string>
+            <string>        и составить списки дел.</string>
            </property>
           </widget>
          </item>
         </layout>
        </widget>
       </widget>
-      <widget class="QWidget" name="check_1"/>
-      <widget class="QWidget" name="check_2"/>
-      <widget class="QWidget" name="check_3"/>
-      <widget class="QWidget" name="check_4"/>
-      <widget class="QWidget" name="check_5"/>
+      <widget class="QWidget" name="check_1">
+       <widget class="QTextEdit" name="textEdit">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>390</y>
+          <width>421</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(103, 225, 250, 0.8)</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>390</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton {
+ 
+	background-color:rgba(41, 190, 219, 0.8);
+   color: rgb(61, 56, 70);
+
+}
+
+QPushButton:pressed {
+    background-color:  rgb(246, 211, 45)
+}</string>
+        </property>
+        <property name="text">
+         <string>Сохранить</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>411</width>
+          <height>167</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="styleSheet">
+            <string notr="true">QCheckBox {
+    background-color: qlineargradient(
+        spread:pad, x1:0, y1:0.477, x2:1, y2:0.534,
+        stop:0 rgba(47, 241, 193, 255),
+        stop:1 rgba(65, 216, 255, 255)
+    );
+
+    color: rgb(36, 31, 49);
+    padding-left: 25px; /* Отступ для видимости индикатора */
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid gray;
+    background: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: rgb(36, 31, 49);
+}
+
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Пример 1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_2">
+           <property name="styleSheet">
+            <string notr="true">QCheckBox {
+    background-color: qlineargradient(
+        spread:pad, x1:0, y1:0.477, x2:1, y2:0.534,
+        stop:0 rgba(47, 241, 193, 255),
+        stop:1 rgba(65, 216, 255, 255)
+    );
+
+    color: rgb(36, 31, 49);
+    padding-left: 25px; /* Отступ для видимости индикатора */
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid gray;
+    background: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: rgb(36, 31, 49);
+}
+
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Пример 2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_3">
+           <property name="styleSheet">
+            <string notr="true">QCheckBox {
+    background-color: qlineargradient(
+        spread:pad, x1:0, y1:0.477, x2:1, y2:0.534,
+        stop:0 rgba(47, 241, 193, 255),
+        stop:1 rgba(65, 216, 255, 255)
+    );
+
+    color: rgb(36, 31, 49);
+    padding-left: 25px; /* Отступ для видимости индикатора */
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid gray;
+    background: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: rgb(36, 31, 49);
+}
+
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Пример 3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_4">
+           <property name="styleSheet">
+            <string notr="true">QCheckBox {
+    background-color: qlineargradient(
+        spread:pad, x1:0, y1:0.477, x2:1, y2:0.534,
+        stop:0 rgba(47, 241, 193, 255),
+        stop:1 rgba(65, 216, 255, 255)
+    );
+
+    color: rgb(36, 31, 49);
+    padding-left: 25px; /* Отступ для видимости индикатора */
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid gray;
+    background: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: rgb(36, 31, 49);
+}
+
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Пример 4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_5">
+           <property name="styleSheet">
+            <string notr="true">QCheckBox {
+    background-color: qlineargradient(
+        spread:pad, x1:0, y1:0.477, x2:1, y2:0.534,
+        stop:0 rgba(47, 241, 193, 255),
+        stop:1 rgba(65, 216, 255, 255)
+    );
+
+    color: rgb(36, 31, 49);
+    padding-left: 25px; /* Отступ для видимости индикатора */
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid gray;
+    background: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: rgb(36, 31, 49);
+}
+
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Пример 5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="ch1_but">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="imges.qrc">
+               <normaloff>:/new/prefix1/imges/free-icon-plus-4315614-photoaidcom-invert.png</normaloff>:/new/prefix1/imges/free-icon-plus-4315614-photoaidcom-invert.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>Изменить:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox">
+               <property name="styleSheet">
+                <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+
+QComboBox:editable {
+    background: white;
+}
+
+
+
+/* QComboBox gets the &quot;on&quot; state when the popup is open */
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 3px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 3px;
+}
+
+
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>элемент 1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>элемент 2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>элемент 3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>элемент 4</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>элемент 5</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
      </widget>
      <widget class="QScrollArea" name="scrollArea">
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-1</x>
         <y>0</y>
         <width>211</width>
         <height>423</height>
@@ -217,7 +592,7 @@ background-color: rgba(191, 64, 64, 0);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.487, y1:0, x2:0.503, y2:1, stop:0 rgba(241, 186, 47, 255), stop:1 rgba(180, 255, 65, 255));
-font: 700 11pt &quot;Segoe UI&quot;;</string>
+font: 500 11pt &quot;Ubuntu Mono&quot;;</string>
       </property>
       <property name="widgetResizable">
        <bool>true</bool>
@@ -235,21 +610,21 @@ font: 700 11pt &quot;Segoe UI&quot;;</string>
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>270</y>
+          <y>140</y>
           <width>211</width>
           <height>151</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">
-font: 700 11pt &quot;Segoe UI&quot;;
+font: 500 11pt &quot;Ubuntu Mono&quot;;
 background-color: rgba(191, 64, 64, 0);
 color: rgb(61, 56, 70);</string>
         </property>
         <property name="title">
          <string>Информация</string>
         </property>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>0</x>
@@ -327,7 +702,7 @@ color: rgb(61, 56, 70);</string>
                </size>
               </property>
               <property name="text">
-               <string>5</string>
+               <string>1</string>
               </property>
              </widget>
             </item>
@@ -397,7 +772,7 @@ color: rgb(61, 56, 70);</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>5</string>
+                 <string>3</string>
                 </property>
                </widget>
               </item>
@@ -408,70 +783,13 @@ color: rgb(61, 56, 70);</string>
          </layout>
         </widget>
        </widget>
-       <widget class="QPushButton" name="pushButton_4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>0</y>
-          <width>91</width>
-          <height>28</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">
-QPushButton {
- 
-	background-color:rgba(241, 186, 47, 255);
-   color: rgb(61, 56, 70);
-
-}
-
-QPushButton:pressed {
-    background-color:  rgb(246, 211, 45)
-}</string>
-        </property>
-        <property name="text">
-         <string>PushButton</string>
-        </property>
-        <property name="flat">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pushButton_5">
-        <property name="geometry">
-         <rect>
-          <x>110</x>
-          <y>0</y>
-          <width>91</width>
-          <height>28</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
- 
-	background-color: rgba(241, 186, 47, 255);
-   color: rgb(61, 56, 70);
-
-}
-
-QPushButton:pressed {
-    background-color: rgb(248, 228, 92)
-}</string>
-        </property>
-        <property name="text">
-         <string>PushButton</string>
-        </property>
-        <property name="flat">
-         <bool>true</bool>
-        </property>
-       </widget>
        <widget class="QScrollArea" name="scrollArea_2">
         <property name="geometry">
          <rect>
           <x>-1</x>
-          <y>20</y>
-          <width>211</width>
-          <height>251</height>
+          <y>0</y>
+          <width>212</width>
+          <height>141</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -485,8 +803,8 @@ QPushButton:pressed {
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>209</width>
-           <height>249</height>
+           <width>210</width>
+           <height>139</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -512,7 +830,7 @@ QPushButton:pressed {
 }</string>
             </property>
             <property name="text">
-             <string>PushButton</string>
+             <string>Список 1</string>
             </property>
             <property name="checkable">
              <bool>true</bool>
@@ -520,158 +838,23 @@ QPushButton:pressed {
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="chbut_1">
-            <property name="minimumSize">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
              <size>
-              <width>0</width>
-              <height>30</height>
+              <width>20</width>
+              <height>40</height>
              </size>
             </property>
-            <property name="styleSheet">
-             <string notr="true">
-QPushButton {
- 
-	background-color:rgba(241, 186, 47, 255);
-   color: rgb(61, 56, 70);
-
-}
-
-QPushButton:pressed {
-    background-color:  rgb(246, 211, 45)
-}</string>
-            </property>
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-            <property name="checkable">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="chbut_2">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>30</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">
-QPushButton {
- 
-	background-color:rgba(241, 186, 47, 255);
-   color: rgb(61, 56, 70);
-
-}
-
-QPushButton:pressed {
-    background-color:  rgb(246, 211, 45)
-}</string>
-            </property>
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-            <property name="checkable">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="chbut_3">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>30</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">
-QPushButton {
- 
-	background-color:rgba(241, 186, 47, 255);
-   color: rgb(61, 56, 70);
-
-}
-
-QPushButton:pressed {
-    background-color:  rgb(246, 211, 45)
-}</string>
-            </property>
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-            <property name="checkable">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="chbut_4">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>30</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">
-QPushButton {
- 
-	background-color:rgba(241, 186, 47, 255);
-   color: rgb(61, 56, 70);
-
-}
-
-QPushButton:pressed {
-    background-color:  rgb(246, 211, 45)
-}</string>
-            </property>
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-            <property name="checkable">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="chbut_6">
-            <property name="minimumSize">
-             <size>
-              <width>191</width>
-              <height>30</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">
-QPushButton {
- 
-	background-color:rgba(241, 186, 47, 255);
-   color: rgb(61, 56, 70);
-
-}
-
-QPushButton:pressed {
-    background-color:  rgb(246, 211, 45)
-}</string>
-            </property>
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-            <property name="checkable">
-             <bool>true</bool>
-            </property>
-           </widget>
+           </spacer>
           </item>
          </layout>
         </widget>
        </widget>
-       <zorder></zorder>
        <zorder>scrollArea_2</zorder>
        <zorder>groupBox</zorder>
-       <zorder>pushButton_4</zorder>
-       <zorder>pushButton_5</zorder>
       </widget>
      </widget>
     </widget>
